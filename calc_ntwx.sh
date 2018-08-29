@@ -32,9 +32,9 @@ do
   h)
    echo -e "${RED} Help calc_ntwx.sh:${NC}"
    echo -e "  Calculate ntwx value based in a guess or previous run, to generate a .nc file of 500Mb.\n"
-   echo -e "${GRAY}  Use -p option for calculate ntwx based in previous md run. (consider dt of previous run)${NC}"
+   echo -e "${GRAY}  Use -p option to calculate ntwx based in previous md run. (consider dt of previous run)${NC}"
    echo -e "   *files needed: mdin, mdout, md01.nc"
-   echo -e "${GRAY}  Use -g option for calculate ntwx based in a guess.${NC}"
+   echo -e "${GRAY}  Use -g option to calculate ntwx based in a guess.${NC}"
    echo -e "${GRAY}  Use -t time [ps] to set how many time you wanna simulate.${NC}"
    echo -e "${GRAY}  Use -n n_atoms to set the number of atoms in your simulation.${NC}"
    echo -e "${GRAY}  Use -d dt_value to set dt value of your simulation.\n${NC}"
